@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref, watchEffect } from 'vue';
 
-import ProfileService from '@/sevices/ProfileService';
+import ProfileService from '@/services/ProfileService';
 import Toaster from '@/components/ui/toast/Toaster.vue'
 import { useToast } from '@/components/ui/toast';
 import ProfileCard from '@/components/ProfileCard.vue';
